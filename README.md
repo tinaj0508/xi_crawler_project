@@ -9,8 +9,3 @@
 - `cloud_run/`: 包含 Cloud Run 的程式碼與配置。
 - `config/`: 配置文件。
 - `scripts/`: 自動化腳本。
-
-## 部署
-1. 部署 Cloud Functions:
-   ```bash
-   bash scripts/deploy_functions.sh
