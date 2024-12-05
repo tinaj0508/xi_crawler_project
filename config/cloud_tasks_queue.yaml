@@ -1,0 +1,8 @@
+queues:
+  - name: crawler-tasks
+    rateLimits:
+      maxDispatchesPerSecond: 5
+      maxConcurrentDispatches: 3
+    retryConfig:
+      maxAttempts: 5
+      minBackoff: 10s
